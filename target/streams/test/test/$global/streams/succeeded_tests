@@ -1,0 +1,18 @@
+#Successful Tests
+#Thu Jun 10 22:32:39 EDT 2021
+org.graphframes.examples.BeliefPropagationSuite=1623378685789
+org.graphframes.GraphFrameSuite=1623378708214
+org.graphframes.lib.ShortestPathsSuite=1623378656896
+org.graphframes.lib.PregelSuite=1623378670617
+org.graphframes.lib.TriangleCountSuite=1623378675550
+org.graphframes.lib.SVDPlusPlusSuite=1623378658550
+org.graphframes.pattern.PatternSuite=1623378662313
+org.graphframes.lib.AggregateMessagesSuite=1623378673315
+org.graphframes.lib.ParallelPersonalizedPageRankSuite=1623378703094
+org.graphframes.lib.BFSSuite=1623378693147
+org.graphframes.PatternMatchSuite=1623378700596
+org.graphframes.lib.LabelPropagationSuite=1623378672514
+org.graphframes.lib.StronglyConnectedComponentsSuite=1623378662252
+org.graphframes.lib.ConnectedComponentsSuite=1623378758975
+org.graphframes.lib.PageRankSuite=1623378661203
+org.graphframes.examples.GraphsSuite=1623378686398

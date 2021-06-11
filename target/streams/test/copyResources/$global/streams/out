@@ -1,0 +1,3 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/root/downloads/graphframes/src/test/resources/log4j.properties,/root/downloads/graphframes/target/scala-2.12/test-classes/log4j.properties)[0m
+[0m[[0mdebug[0m] [0m	(/root/downloads/graphframes/src/test/resources/als-test.data,/root/downloads/graphframes/target/scala-2.12/test-classes/als-test.data)[0m

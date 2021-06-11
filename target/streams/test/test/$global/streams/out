@@ -1,0 +1,175 @@
+[0m[[0mdebug[0m] [0mjavaOptions: List(-Xmx2048m, -XX:ReservedCodeCacheSize=384m, -XX:MaxPermSize=384m)[0m
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 16 initial tasks for 16 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.ShortestPathsSuite, sbt.ForkMain$SubclassFingerscan@6445319f, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mShortestPathsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Simple test[0m[0m
+[0m[[0minfo[0m] [0m[32m- friends graph[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.SVDPlusPlusSuite, sbt.ForkMain$SubclassFingerscan@121a6b21, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mSVDPlusPlusSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Test SVD++ with mean square error on training set[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.PageRankSuite, sbt.ForkMain$SubclassFingerscan@3d6f0d6d, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mPageRankSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Star example[0m[0m
+[0m[[0minfo[0m] [0m[32m- friends graph with personalized PageRank[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.StronglyConnectedComponentsSuite, sbt.ForkMain$SubclassFingerscan@5db24ae0, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mStronglyConnectedComponentsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Island Strongly Connected Components[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.pattern.PatternSuite, sbt.ForkMain$SubclassFingerscan@4b7df7b, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mPatternSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- good parses[0m[0m
+[0m[[0minfo[0m] [0m[32m- bad parses[0m[0m
+[0m[[0minfo[0m] [0m[32m- empty pattern should be parsable[0m[0m
+[0m[[0minfo[0m] [0m[32m- findNamedVerticesOnlyInNegatedTerms: (u)-[]->(v); (v)-[]->(w); !(u)-[]->(w)[0m[0m
+[0m[[0minfo[0m] [0m[32m- findNamedVerticesOnlyInNegatedTerms: (u)-[]->(v); (v)-[]->(w)[0m[0m
+[0m[[0minfo[0m] [0m[32m- findNamedVerticesOnlyInNegatedTerms: !(u)-[]->(v)[0m[0m
+[0m[[0minfo[0m] [0m[32m- findNamedVerticesOnlyInNegatedTerms: (u)-[]->(v); (v)-[]->(w); !(a)-[]->(b); !(v)-[]->(c)[0m[0m
+[0m[[0minfo[0m] [0m[32m- testFindNamedElementsInOrder: (u)-[]->(v); (v)-[]->(w); !(u)-[]->(w)[0m[0m
+[0m[[0minfo[0m] [0m[32m- testFindNamedElementsInOrder: (u)-[]->(v); ()-[vw]->()[0m[0m
+[0m[[0minfo[0m] [0m[32m- testFindNamedElementsInOrder: (u)-[uv]->(v); (v)-[vw]->(w); !(u)-[]->(w); (x)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 10 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.PregelSuite, sbt.ForkMain$SubclassFingerscan@80811d1, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mPregelSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- page rank[0m[0m
+[0m[[0minfo[0m] [0m[32m- chain propagation[0m[0m
+[0m[[0minfo[0m] [0m[32m- reverse chain propagation[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.LabelPropagationSuite, sbt.ForkMain$SubclassFingerscan@57f60c6f, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mLabelPropagationSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Toy example[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.AggregateMessagesSuite, sbt.ForkMain$SubclassFingerscan@219ffa8f, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mAggregateMessagesSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- aggregateMessages[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.TriangleCountSuite, sbt.ForkMain$SubclassFingerscan@5f809c1b, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mTriangleCountSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Count a single triangle[0m[0m
+[0m[[0minfo[0m] [0m[32m- Count two triangles[0m[0m
+[0m[[0minfo[0m] [0m[32m- Count one triangles with bi-directed edges[0m[0m
+[0m[[0minfo[0m] [0m[32m- Count a single triangle with duplicate edges[0m[0m
+[0m[[0minfo[0m] [0m[32m- no triangle[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 5 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.examples.BeliefPropagationSuite, sbt.ForkMain$SubclassFingerscan@597ff365, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mBeliefPropagationSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- BP using GraphX and GraphFrame aggregateMessages[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.examples.GraphsSuite, sbt.ForkMain$SubclassFingerscan@1d6ef55d, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mGraphsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- empty graph[0m[0m
+[0m[[0minfo[0m] [0m[32m- chain graph[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.BFSSuite, sbt.ForkMain$SubclassFingerscan@23c5e252, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mBFSSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- unmatched queries should return nothing[0m[0m
+[0m[[0minfo[0m] [0m[32m- 0 hops, aka from=to[0m[0m
+[0m[[0minfo[0m] [0m[32m- 1 hop, aka single edge paths[0m[0m
+[0m[[0minfo[0m] [0m[32m- ties[0m[0m
+[0m[[0minfo[0m] [0m[32m- maxPathLength: length 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- maxPathLength: length > 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- edge filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- string expressions[0m[0m
+[0m[[0minfo[0m] [0m[32m- fromExpr and toExpr are required[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 9 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.PatternMatchSuite, sbt.ForkMain$SubclassFingerscan@30753941, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mPatternMatchSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- test compareResultToExpected[0m[0m
+[0m[[0minfo[0m] [0m[32m- empty query should return nothing[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter edges and drop isolated vertices[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter vertices[0m[0m
+[0m[[0minfo[0m] [0m[32m- triangles[0m[0m
+[0m[[0minfo[0m] [0m[32m- single named vertex[0m[0m
+[0m[[0minfo[0m] [0m[32m- triplet with anonymous edge[0m[0m
+[0m[[0minfo[0m] [0m[32m- triplet with named edge[0m[0m
+[0m[[0minfo[0m] [0m[32m- triplet with anonymous vertex[0m[0m
+[0m[[0minfo[0m] [0m[32m- triplet with 2 anonymous vertices[0m[0m
+[0m[[0minfo[0m] [0m[32m- self-loop[0m[0m
+[0m[[0minfo[0m] [0m[32m- duplicate edges[0m[0m
+[0m[[0minfo[0m] [0m[32m- triangle cycles[0m[0m
+[0m[[0minfo[0m] [0m[32m- disconnected edges create an outer join[0m[0m
+[0m[[0minfo[0m] [0m[32m- edges without back edges[0m[0m
+[0m[[0minfo[0m] [0m[32m- a->b->c but not c->a[0m[0m
+[0m[[0minfo[0m] [0m[32m- three connected vertices not in a triangle[0m[0m
+[0m[[0minfo[0m] [0m[32m- a->b but not b->c[0m[0m
+[0m[[0minfo[0m] [0m[32m- a->b where b has no out edges[0m[0m
+[0m[[0minfo[0m] [0m[32m- a->b but not c->d[0m[0m
+[0m[[0minfo[0m] [0m[32m- a->b, c where c has no out edges[0m[0m
+[0m[[0minfo[0m] [0m[32m- a->b, c without edges b->c->a[0m[0m
+[0m[[0minfo[0m] [0m[32m- a->b, c, d with no edges a->c, c->d[0m[0m
+[0m[[0minfo[0m] [0m[32m- query without non-negated terms, with one named vertex[0m[0m
+[0m[[0minfo[0m] [0m[32m- query without non-negated terms, with two named vertices[0m[0m
+[0m[[0minfo[0m] [0m[32m- named edges[0m[0m
+[0m[[0minfo[0m] [0m[32m- a->b but not a->b[0m[0m
+[0m[[0minfo[0m] [0m[32m- named edge __tmp[0m[0m
+[0m[[0minfo[0m] [0m[32m- find column order[0m[0m
+[0m[[0minfo[0m] [0m[32m- Disallow empty term ()-[]->()[0m[0m
+[0m[[0minfo[0m] [0m[32m- Disallow named edges in negated terms[0m[0m
+[0m[[0minfo[0m] [0m[32m- Disallow using the same name for both a vertex and an edge[0m[0m
+[0m[[0minfo[0m] [0m[32m- triangles via post-hoc filter[0m[0m
+[0m[[0minfo[0m] [0m[32m- stateful predicates via UDFs[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 34 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.ParallelPersonalizedPageRankSuite, sbt.ForkMain$SubclassFingerscan@63e9a662, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mParallelPersonalizedPageRankSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Illegal function call argument setting[0m[0m
+[0m[[0minfo[0m] [0m[32m- Star example parallel personalized PageRank[0m[0m
+[0m[[0minfo[0m] [0m[32m- friends graph with parallel personalized PageRank[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.GraphFrameSuite, sbt.ForkMain$SubclassFingerscan@705be9b7, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mGraphFrameSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- construction from DataFrames[0m[0m
+[0m[[0minfo[0m] [0m[32m- construction from edge DataFrame[0m[0m
+[0m[[0minfo[0m] [0m[32m- construction from GraphX[0m[0m
+[0m[[0minfo[0m] [0m[32m- convert to GraphX: Long IDs[0m[0m
+[0m[[0minfo[0m] [0m[32m- convert to GraphX: Int IDs[0m[0m
+[0m[[0minfo[0m] [0m[32m- convert to GraphX: String IDs[0m[0m
+[0m[[0minfo[0m] [0m[32m- save/load[0m[0m
+[0m[[0minfo[0m] [0m[32m- degree metrics[0m[0m
+[0m[[0minfo[0m] [0m[32m- cache[0m[0m
+[0m[[0minfo[0m] [0m[32m- basic operations on an empty graph[0m[0m
+[0m[[0minfo[0m] [0m[32m- skewed long ID assignments[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 11 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.graphframes.lib.ConnectedComponentsSuite, sbt.ForkMain$SubclassFingerscan@1cc1d6f7, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mConnectedComponentsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- default params[0m[0m
+[0m[[0minfo[0m] [0m[32m- empty graph[0m[0m
+[0m[[0minfo[0m] [0m[32m- single vertex[0m[0m
+[0m[[0minfo[0m] [0m[32m- disconnected vertices[0m[0m
+[0m[[0minfo[0m] [0m[32m- two connected vertices[0m[0m
+[0m[[0minfo[0m] [0m[32m- chain graph[0m[0m
+[0m[[0minfo[0m] [0m[32m- star graph[0m[0m
+[0m[[0minfo[0m] [0m[32m- two blobs[0m[0m
+[0m[[0minfo[0m] [0m[32m- two components[0m[0m
+[0m[[0minfo[0m] [0m[32m- one component, differing edge directions[0m[0m
+[0m[[0minfo[0m] [0m[32m- two components and two dangling vertices[0m[0m
+[0m[[0minfo[0m] [0m[32m- friends graph[0m[0m
+[0m[[0minfo[0m] [0m[32m- really large long IDs[0m[0m
+[0m[[0minfo[0m] [0m[32m- checkpoint interval[0m[0m
+[0m[[0minfo[0m] [0m[32m- intermediate storage level[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 15 events.[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 minute, 56 seconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 101[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 16, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 101, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.TriangleCountSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.StronglyConnectedComponentsSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.pattern.PatternSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.ShortestPathsSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.GraphFrameSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.examples.BeliefPropagationSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.ParallelPersonalizedPageRankSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.BFSSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.LabelPropagationSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.PageRankSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.AggregateMessagesSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.PregelSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.examples.GraphsSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.SVDPlusPlusSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.lib.ConnectedComponentsSuite[0m
+[0m[[0mdebug[0m] [0m	org.graphframes.PatternMatchSuite[0m

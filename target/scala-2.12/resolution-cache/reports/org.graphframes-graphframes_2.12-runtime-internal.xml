@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.graphframes"
+		module="graphframes_2.12"
+		revision="0.8.2-SNAPSHOT-spark3.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
+		date="20210610220437"/>
+	<dependencies>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.16" status="release" pubdate="20160211152603" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2775" time="691" location="/root/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.16.xml" searched="true" original-local-location="/root/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.16.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.pom"/>
+				<caller organisation="org.graphframes" name="graphframes_2.12" conf="compile, runtime-internal, runtime, optional" rev="1.7.16" rev-constraint-default="1.7.16" rev-constraint-dynamic="1.7.16" callerrev="0.8.2-SNAPSHOT-spark3.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="successful" details="" size="40509" time="684" location="/root/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.14" status="release" pubdate="20210527215427" resolver="public" artresolver="public" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.12.14/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1602" time="666" location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.14.xml" searched="true" original-local-location="/root/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.14.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14.pom"/>
+				<caller organisation="org.graphframes" name="graphframes_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.14" rev-constraint-default="2.12.14" rev-constraint-dynamic="2.12.14" callerrev="0.8.2-SNAPSHOT-spark3.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5443473" time="2331" location="/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.14/scala-library-2.12.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

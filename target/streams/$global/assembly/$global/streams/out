@@ -1,0 +1,10 @@
+[0m[[0mdebug[0m] [0mIncluding from cache: slf4j-api-1.7.16.jar[0m
+[0m[[0mdebug[0m] [0mIncluding from cache: scala-library-2.12.14.jar[0m
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0mdebug[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0mdebug[0m] [0mMerging files...[0m
+[0m[[0mdebug[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0mdebug[0m] [0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.properties' with strategy 'discard'[0m
+[0m[[0mdebug[0m] [0mMerging 'META-INF/maven/org.slf4j/slf4j-api/pom.xml' with strategy 'discard'[0m
+[0m[[0minfo[0m] [0mStrategy 'discard' was applied to 3 files (Run the task at debug level to see details)[0m
+[0m[[0minfo[0m] [0mAssembly up to date: /root/downloads/graphframes/target/scala-2.12/graphframes-assembly-0.8.2-SNAPSHOT-spark3.0.jar[0m
